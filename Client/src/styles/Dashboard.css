@@ -1,0 +1,75 @@
+/* In App.css or your main CSS file */
+* {
+  font-family: 'Manrope', sans-serif;
+}
+
+.dashboard {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start; 
+  margin-bottom: 20px; 
+}
+
+.total-clicks {
+  color: blue;
+  font-weight: bold;
+  margin-left: 10px;
+  /* 181820 */
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.left-section,
+.right-section {
+  width: 48%;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  color: #1B48DA;
+  margin-bottom: 15px;
+  font-style: medium;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bar-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.date,
+.device {
+  width: 100px;
+  font-weight: bold;
+}
+
+.bar {
+  height: 12px;
+  background-color: blue;
+  margin: 0 10px;
+  /* border-radius: 5px; */
+  min-width: 10px;
+}
+
+.count {
+  font-weight: bold;
+}
